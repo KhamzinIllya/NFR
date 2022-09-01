@@ -166,7 +166,7 @@ nav .menu-btn {
   transition: all calc(100ms + var(--transition-time)) cubic-bezier(0.8, 0, 0.33, 1.25);
   cursor: pointer;
   z-index: 10;
-  background-image: url("/images/Vector.svg");
+  background-image: url("../images/Vector.svg");
 }
 nav .menu-btn.close .line__1 {
   transform: rotate(45deg) translate(2px, -3px); }
@@ -210,7 +210,7 @@ nav.sub-menu-open .nav-links .hover-el {
   opacity: 0; }
 
 nav .sub-menu-btn:before{
-  background-image: url("/images/Vector.svg");
+  background-image: url("../images/Vector.svg");
   position: absolute;
   top: -21px;
   right: 0;

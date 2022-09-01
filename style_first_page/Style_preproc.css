@@ -12,8 +12,8 @@ header {
   min-width: 280px;
   background: rgba(0, 0, 0, 0.26);
   background-blend-mode: darken;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  background-image: url("/images/Rectangle 173.png");
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  background-image: url("../images/Rectangle 173.png");
   background-position: center;
   height: 593px;
   background-size: cover;
@@ -151,7 +151,7 @@ header .header_conteiner2 .header_title {
 }
 .third_banner .third_banner_container .third_banner_section .link_third_banner:after, .third_banner .box .third_banner_section .link_third_banner:after, .third_banner .box .box_section .link_third_banner:after, .third_banner .box .box_section .link_box:after {
   color: black;
-  content: url("/images/Arrow 4.svg");
+  content: url("../images/Arrow 4.svg");
   display: block;
   margin-top: 1px;
   margin-left: 2px;
@@ -380,7 +380,7 @@ nav .menu-btn {
   transition: all calc(100ms + var(--transition-time)) cubic-bezier(0.8, 0, 0.33, 1.25);
   cursor: pointer;
   z-index: 10;
-  background-image: url("/images/Vector.svg");
+  background-image: url("../images/Vector.svg");
 }
 
 nav .menu-btn.close .line__1 {
@@ -448,7 +448,7 @@ nav.sub-menu-open .nav-links .hover-el {
 }
 
 nav .sub-menu-btn:before {
-  background-image: url("/images/Vector.svg");
+  background-image: url("../images/Vector.svg");
   position: absolute;
   top: -21px;
   right: 0;
