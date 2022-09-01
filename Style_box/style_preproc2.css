@@ -1,8 +1,6 @@
 header {
   display: flex;
   min-width: 280px;
-  background: rgba(0, 0, 0, 0.26);
-  background-blend-mode: darken;
   background: #FFF1E5;
   padding: 164px 46px 46px 46px;
 }
