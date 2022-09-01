@@ -1,0 +1,22 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: 'Poppins', sans-serif;
+}
+
+@import "style.css";
+@import "heder";
+@import "2_banner";
+@import "3_banner";
+@import "footer";
+@import "menu";
+
+$main_font:'Poppins';
+
+
+
+

@@ -1,0 +1,95 @@
+
+$main_font:'Poppins';
+.third_banner {
+  padding: 59px 46px 73px 46px;
+  min-width: 280px;
+  display: flex;
+  align-content: space-around;
+  flex-direction: column;
+  background: #FFF1E5;
+  .third_banner_container {
+    .title3 {
+      font-family: $main_font;
+      font-style: normal;
+      font-weight: 800;
+      font-size: 20px;
+      line-height: 30px;
+      color: #231F20;
+      display: block;
+    }
+
+    .third_banner_section {
+      max-width: 283px;
+      display: flex;
+      flex-direction: column;
+      background-color: #FFFFFF;
+      padding: 20px 30px 27px 30px;
+      align-content: space-between;
+      margin-top: 103px;
+      position: relative;
+
+      .title4 {
+        font-family: $main_font;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 30px;
+        color: #000000;
+      }
+
+      .text_third_banner {
+        font-family: $main_font;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 8px;
+        line-height: 15px;
+        color: #000000;
+        margin-bottom: 10px;
+      }
+
+      .link_third_banner {
+        background: #00E676;
+        border-radius: 15px;
+        position: absolute;
+        bottom: 10px;
+        right: 30px;
+        font-family: $main_font;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 8px;
+        line-height: 15px;
+        color: #000000;
+        padding: 2px 11px 2px 11px;
+        display: flex;
+        text-decoration: none;
+
+        &:after {
+          color: black;
+          content: url("/images/Arrow 4.svg");
+          display: block;
+          margin-top: 1px;
+          margin-left: 2px;
+        }
+      }
+
+    }
+  }
+  .box {
+    @extend .third_banner_container;
+    .box_section{
+      @extend .third_banner_section;
+      margin-top: 40px;
+      .title_box{
+        @extend .title4;
+      }
+      .text_box {
+        @extend .text_third_banner;
+      }
+      .link_box {
+        @extend .link_third_banner;
+      }
+    }
+  }
+}
+
+

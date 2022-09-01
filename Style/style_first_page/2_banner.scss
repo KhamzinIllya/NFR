@@ -1,0 +1,46 @@
+
+
+
+$main_font:'Poppins';
+
+.second_banner {
+  min-width: 280px;
+  background-color: #FFFFFF;
+  height: 543px;
+  padding: 64px 47px 37px 46px;
+  display: flex;
+  align-content: center;
+  .second_banner_conteiner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    .second_banner_content1 {
+      display: flex;
+      justify-content: center;
+      img {
+        max-width: 191px;
+      }
+    }
+    .second_banner_content2 {
+      margin-top: 71px;
+      .title2 {
+        font-family: $main_font;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 30px;
+        color: #242021;
+      }
+      .text_second_banner {
+        font-family: $main_font;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 22px;
+        color: #231F20;
+        margin-top: 28px ;
+      }
+    }
+  }
+}

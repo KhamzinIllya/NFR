@@ -1,0 +1,26 @@
+footer {
+  background: black;
+  min-width: 280px;
+  padding-top: 42px;
+  padding-bottom: 32px;
+  padding-left: 46px;
+  display: flex;
+  justify-content: flex-start;
+}
+footer .footer_container {
+  max-width: 202px;
+}
+footer .footer_container ul {
+  list-style: none;
+}
+footer .footer_container ul li {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 30px;
+  margin-top: 5px;
+  color: #FFFFFF;
+}
+
+/*# sourceMappingURL=footer.css.map */
