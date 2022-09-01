@@ -12,6 +12,7 @@ header {
   height: 593px;
   background-size: cover;
   padding: 42px 30px 43px 51px;
+  overflow-x:hidden ;
   .header_conteiner {
     display: flex;
     justify-content: space-between;
@@ -23,28 +24,10 @@ header {
       display: flex;
       justify-content: space-between;
       position: relative;
-
       .logo1 {
         font-size: 10px;
       }
 
-      .header_menu {
-        background-image: url("/images/Vector.svg");
-        position: absolute;
-        top: -21px;
-        right: 0;
-        width: 61px;
-        height: 62px;
-        border-style: none;
-        background-color: unset;
-
-        &:before {
-          font-family: "Font Awesome 6 Free";
-          font-weight: 900;
-          color: black;
-          content: "\f0c9";
-          font-size: 30px;
-        }
       }
     }
     .header_conteiner2 {
@@ -60,5 +43,3 @@ header {
       }
     }
   }
-
-}
