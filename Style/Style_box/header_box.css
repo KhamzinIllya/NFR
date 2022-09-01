@@ -1,0 +1,57 @@
+header {
+  display: flex;
+  min-width: 280px;
+  background: rgba(0, 0, 0, 0.26);
+  background-blend-mode: darken;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  background: #FFF1E5;
+  padding: 164px 46px 46px 46px;
+}
+header .header_conteiner {
+  display: flex;
+  max-width: 283px;
+  flex-direction: column;
+}
+header .header_conteiner .header_conteiner2, header .header_conteiner .header_conteiner3 {
+  display: flex;
+  max-width: 218px;
+  flex-direction: column;
+  align-content: space-between;
+  justify-content: center;
+  background: #FFFFFF;
+  padding: 68px 34px 17px 31px;
+  position: relative;
+}
+header .header_conteiner .header_conteiner2 .back_to_main, header .header_conteiner .header_conteiner3 .back_to_main {
+  position: absolute;
+  right: 23px;
+  top: 28px;
+  height: 30px;
+  width: 31px;
+}
+header .header_conteiner .header_conteiner2 .header_title, header .header_conteiner .header_conteiner3 .header_title, header .header_conteiner .header_conteiner3 h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
+}
+header .header_conteiner .header_conteiner2 .katoen, header .header_conteiner .header_conteiner3 .katoen {
+  margin-top: 18px;
+}
+header .header_conteiner .header_conteiner2 .text_boxs, header .header_conteiner .header_conteiner3 .text_boxs, header .header_conteiner .header_conteiner3 p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 8px;
+  line-height: 15px;
+  color: #000000;
+  margin-top: 18px;
+}
+header .header_conteiner .header_conteiner3 {
+  margin-top: 40px;
+  padding: 66px 34px 128px 31px;
+}
+
+/*# sourceMappingURL=header_box.css.map */

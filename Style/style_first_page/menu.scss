@@ -4,8 +4,9 @@
 
 body {
   width: 100%;
+  z-index: 1;
   overflow-x: hidden;
-  z-index: 1; }
+}
 /*body::after {
   content: "";
   position: absolute;
@@ -32,7 +33,6 @@ nav {
   position: absolute;
   right: 0;
   top: 0;
-  overflow-x:hidden ;
   .image {
     display: block;
     margin-top: 41px;
@@ -136,7 +136,9 @@ nav .sub-menu-btn {
   transition: all var(--transition-time) cubic-bezier(0.8, 0, 0.33, 1.25);
   cursor: pointer;
   z-index: 8;
-  pointer-events: none; }
+  pointer-events: none;
+
+}
 nav .sub-menu-btn .line {
   width: calc(var(--icon-width) - 28px);
   height: 2px;
