@@ -55,7 +55,7 @@ header .header_conteiner .header_conteiner3 {
 }
 body {
   width: 100%;
-  overflow-x: hidden;
+  overflow: hidden;
   z-index: 1;
 }
 

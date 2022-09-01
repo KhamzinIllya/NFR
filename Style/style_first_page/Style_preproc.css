@@ -203,7 +203,7 @@ footer .footer_container ul li {
 
 body {
   width: 100%;
-  overflow-x: hidden;
+  overflow: hidden;
   z-index: 1;
 }
 
