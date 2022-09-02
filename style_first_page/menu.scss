@@ -88,10 +88,8 @@ a:hover {
 .nav {
   z-index: 4;
   width: 100%;
-  overflow-x: hidden;
 }
 .nav:before, .nav:after {
-  overflow-x: hidden;
   content: "";
   position: absolute;
   top:0px;
