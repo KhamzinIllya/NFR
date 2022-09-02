@@ -91,6 +91,7 @@ a:hover {
   overflow-x: hidden;
 }
 .nav:before, .nav:after {
+  overflow-x: hidden;
   content: "";
   position: absolute;
   top:0px;
