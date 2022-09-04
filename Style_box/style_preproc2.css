@@ -3,6 +3,8 @@ header {
   min-width: 280px;
   background: #FFF1E5;
   padding: 164px 46px 46px 46px;
+  position: relative;
+  overflow-x: hidden;
 }
 header .header_conteiner {
   display: flex;
