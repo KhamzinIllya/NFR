@@ -1,0 +1,39 @@
+
+$main_font:'Poppins';
+
+header{
+  padding: 168px 52px 67px 52px ;
+  min-width: 280px;
+  background: #FFF1E5;
+  overflow-x: hidden;
+  display: flex;
+  position: relative;
+
+  .care_container {
+    .care_container1 {
+      min-width: 280px;
+      display: flex;
+      flex-direction: column;
+
+      h2 {
+        display: block;
+        font-family: $main_font;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 30px;
+        color: #231F20;
+      }
+
+      p {
+        display: block;
+        font-family: $main_font;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 22px;
+        color: #000000;
+      }
+    }
+  }
+}
